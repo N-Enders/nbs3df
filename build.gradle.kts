@@ -40,6 +40,7 @@ tasks.processResources {
     }
 }
 
+
 tasks.shadowJar {
     relocate("kotlinx.serialization", "cloud.emilys.nbs3df.shaded.kotlinx.serialization")
     mergeServiceFiles()
